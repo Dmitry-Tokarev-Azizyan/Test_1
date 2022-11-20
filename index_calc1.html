@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My_first_calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="contenierParents_level_1">
+      <div class="inputBox_level_2">
+        <div class="section_input_level_3">
+          <p class="text_level_4">Число 1:</p>
+          <input
+            type="text"
+            maxlength="3"
+            id="firstValue"
+            class="inputText_level_4"
+          />
+        </div>
+        <div class="section_input_level_3">
+          <p class="text_level_4">Число 2:</p>
+          <input
+            type="text"
+            maxlength="3"
+            id="secondValue"
+            class="inputText_level_4"
+          />
+        </div>
+        <div class="section_input_level_3">
+          <p class="text_level_4">Равно:</p>
+          <input
+            type="text"
+            id="equallyValue"
+            class="inputText_level_4"
+            readonly
+          />
+        </div>
+      </div>
+      <div class="keyboard_level_2">
+        <button onclick="plus()" class="click_level_3">+</button>
+        <button onclick="multiplication()" class="click_level_3">
+          &times;
+        </button>
+        <!--специальные символы &times; и т.е. -->
+        <button onclick="power()" class="click_level_3">^</button>
+        <button onclick="minus()" class="click_level_3">-</button>
+        <button onclick="division()" class="click_level_3">&divide;</button>
+        <button onclick="close_page()" class="click_level_3">Exit</button>
+        <button onclick="clean()" class="click_level_3">C</button>
+        <button onclick="string()" class="click_level_3">string</button>
+        <button onclick="color()" class="click_level_3">Цвет</button>
+      </div>
+      <p id="inputText" class="text_level_4 text_level_2"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

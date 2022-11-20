@@ -1,0 +1,100 @@
+body{
+user-select: none;/*Удаляем выделение*/
+box-sizing: border-box;
+background-color: rgb(10, 83, 150);
+margin-top: 10%;
+display: flex;
+justify-content: center;
+min-width: 00px;
+}
+
+.contenierParents_level_1{
+background-color: rgb(0, 135, 83);
+width: 500px;
+height: 700px;
+border-radius: 35px;
+display: flex;
+flex-direction: column;
+border: 10px solid black;
+transition: 1s;
+}
+
+.inputBox_level_2{
+display: flex;
+justify-content: center;
+}
+
+.section_input_level_3{
+display: flex;
+flex-direction: column;
+width: 150px;
+margin-top: 30px;
+background-color: aquamarine;
+border-radius: 30px;
+margin-right: 5px;
+margin-left: 5px;
+border: 5px solid black;
+}
+
+.text_level_4{
+font-family: 'Times New Roman', Times, serif;
+font-size: 19px;
+margin-left: auto;
+margin-right: auto;
+font-weight: bold;
+
+}
+
+.inputText_level_4{
+height: 40px;
+width: 100px;
+border-radius: 35px;
+font-size: 25px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 15px;
+border: 3px solid black;
+background-color: rgb(173, 180, 234);
+text-align: center;
+}
+
+.keyboard_level_2{
+    
+height: 375px;
+width: 400px;
+margin-top: 30px;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+flex-flow: column wrap;
+
+}
+
+.click_level_3{
+width: 100px;
+height: 100px;
+font-size: 30px;
+margin: 10px;
+border-radius: 50px;
+border: 3px solid black;
+background-color: rgb(173, 180, 234);
+transition: 2s;
+
+}
+.click_level_3:hover{
+    transform: scale(1.1);
+    transition: 2s;
+    border-radius: 40px;
+}
+
+.click_level_3:last-of-type{
+background-color: red;
+}
+
+.text_level_2{
+color: brown;
+font-weight: bold; 
+font-size: 35px;
+text-align: center;
+}
+
