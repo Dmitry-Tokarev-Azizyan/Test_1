@@ -1,6 +1,6 @@
 'use strict';
 
-//Режим 1 
+//Режим 1 git remote add origin https://github.com/Dmitry-Tokarev-Azizyan/Test_1.git
 
 const firstValue = document.getElementById('firstValue');//доступ к 1 числу пользователя
 const secondValue = document.getElementById('secondValue');//доступ к 2 числу пользователя
